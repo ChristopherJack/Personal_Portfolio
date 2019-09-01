@@ -7,13 +7,13 @@
     padding: 0;
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    color: #eeeeee;
-    background: #eeeeee;
+    color: #ffffff;
+    background: #706176;
   }
 
   .main-nav {
     width: 100%;
-    background: #333333;
+    background: #163b5f;
     min-height: 30px;
     padding: 10px;
     position: fixed;
@@ -38,12 +38,13 @@
     transition: all .5s;
   }
   .nav a:hover {
-    color: #666666;
+    color: #706176;
   }
 
   header {
     text-align: center;
-    background: url(assets/backgroundPH.png) no-repeat top center;
+    background: url(assets/portBK.jpg) no-repeat center;
+    background-size: cover;
     overflow: hidden;
     padding-top: 60px;
   }
@@ -55,11 +56,10 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #333333;
+    border: 3px solid #ffffff;
     transition: all .5s;
   }
   .tag {
-    background-color: #333333;
     color: #eeeeee;
     padding: 10px;
     border-radius: 5px;
@@ -80,23 +80,23 @@
   .card {
     padding: 20px 40px 40px;
     margin-bottom: 2%;
-    width: 48%;
+    width: 98%;
     text-align: left;
-    background: #666666;
+    background: #486290;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
   }
 
   .card a {
-    color: #ffffff;
+    color: #43496a;
     transition: all .5s;
   }
 
   .card a:hover {
-      color: #999999;
+      color: #d2beac;
   }
   .card:hover {
-    border-color: #ffffff;
+    border-color: #d2beac;
   }
   
   ul.skills {
@@ -107,26 +107,30 @@
   .skills li {
     border-radius: 6px;
     display: inline-block;
-    background: #cccccc;
-    color: #666666;
+    background: #d2beac;
+    color: #ffffff;
     padding: 5px 10px;
     margin: 2px;
   }
   
   .skills li:nth-child(odd) {
-    background: #333333;
+    background: #43496a;
   }
 
-  .project {
+  .project1 {
     margin-bottom: 2%;
     padding: 20px 40px 40px;
-    width: 98%;
+    width: 48%;
     text-align: left;
-    background: #666666;
+    background: #43496a;
     border-bottom: 4px solid #ccc;
     border-radius: 6px;
   }
-  .project:hover {
+
+  .project1 h1 {
+    text-align: center;
+  }
+  .project1:hover {
     border-color: #ffffff;
   }
   
@@ -152,7 +156,7 @@
   footer ul li {
     display: inline-block;
   }
-  
+
   
   /* Styles for larger screens */
   @media screen and (min-width: 720px) {
